@@ -1,0 +1,10 @@
+{
+  "name": "relay-web-e2e",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/relay/web-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["relay-web"],
+  "// targets": "to see all targets run: nx show project relay-web-e2e --web",
+  "targets": {}
+}
