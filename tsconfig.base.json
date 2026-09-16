@@ -10,27 +10,17 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": [
-      "es2020",
-      "dom"
-    ],
+    "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "strict": false,
     "paths": {
-      "@libs/display": [
-        "./libs/display/src/index.ts"
-      ],
-      "@ui/primitives": [
-        "./ui/primitives/src/Client/index.ts"
-      ],
-      "@ui/primitives/server": [
-        "./ui/primitives/src/Server/index.ts"
-      ]
+      "@libs/display": ["./libs/display/src/index.ts"],
+      "@ui/primitives": ["./ui/primitives/src/Client/index.ts"],
+      "@ui/primitives/server": ["./ui/primitives/src/Server/index.ts"],
+      "@ui/core": ["./ui/core/src/Client/index.ts"],
+      "@ui/core/server": ["./ui/core/src/Server/index.ts"]
     }
   },
-  "exclude": [
-    "node_modules",
-    "tmp"
-  ]
+  "exclude": ["node_modules", "tmp"]
 }
