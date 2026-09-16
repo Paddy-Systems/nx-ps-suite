@@ -1,0 +1,9 @@
+{
+  "name": "paddy-systems-web",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/paddy-systems/web/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project paddy-systems-web --web",
+  "targets": {}
+}
