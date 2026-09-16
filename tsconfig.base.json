@@ -20,6 +20,12 @@
     "paths": {
       "@libs/display": [
         "./libs/display/src/index.ts"
+      ],
+      "@ui/primitives": [
+        "./ui/primitives/src/Client/index.ts"
+      ],
+      "@ui/primitives/server": [
+        "./ui/primitives/src/Server/index.ts"
       ]
     }
   },
